@@ -3,3 +3,8 @@ description = Performs bulk exporting of data objects known about by Chaos tools
 core = 6.x
 dependencies[] = ctools
 package = Chaos tool suite
+; Information added by Drupal 6 LTS vendors on 2018-10-08
+version = "6.x-1.16"
+core = "6.x"
+project = "ctools"
+datestamp = "1539022173"

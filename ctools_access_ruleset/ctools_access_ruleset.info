@@ -3,3 +3,9 @@ description = Create custom, exportable, reusable access rulesets for applicatio
 core = 6.x
 package = Chaos tool suite
 dependencies[] = ctools
+
+; Information added by Drupal 6 LTS vendors on 2018-10-08
+version = "6.x-1.16"
+core = "6.x"
+project = "ctools"
+datestamp = "1539022173"
