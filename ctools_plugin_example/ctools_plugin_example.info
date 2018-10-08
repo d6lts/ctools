@@ -6,9 +6,3 @@ dependencies[] = panels
 dependencies[] = page_manager
 dependencies[] = advanced_help
 core = 6.x
-
-; Information added by Drupal 6 LTS vendors on 2018-10-08
-version = "6.x-1.16"
-core = "6.x"
-project = "ctools"
-datestamp = "1539022173"

@@ -2,8 +2,3 @@ name = Chaos tools
 description = A library of helpful tools by Merlin of Chaos.
 core = 6.x
 package = Chaos tool suite
-; Information added by Drupal 6 LTS vendors on 2018-10-08
-version = "6.x-1.16"
-core = "6.x"
-project = "ctools"
-datestamp = "1539022173"
