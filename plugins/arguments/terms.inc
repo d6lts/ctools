@@ -63,7 +63,7 @@ function ctools_terms_breadcrumb($conf, $context) {
   if (empty($conf['breadcrumb'])) {
     return;
   }
-
+  $current = new stdClass();
   $current->tid = $context->tids[0];
   $breadcrumb = array();
   while ($parents = taxonomy_get_parents($current->tid)) {
