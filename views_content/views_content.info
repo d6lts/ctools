@@ -5,8 +5,3 @@ dependencies[] = ctools
 dependencies[] = views
 core = 6.x
 package = Chaos tool suite
-; Information added by Drupal 6 LTS vendors on 2020-09-15
-version = "6.x-1.17"
-core = "6.x"
-project = "ctools"
-datestamp = "1600202982"
