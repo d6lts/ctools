@@ -79,7 +79,8 @@ function ctools_get_menu_trail($path = NULL) {
   }
 
   $tree = ctools_menu_tree_page_data($item, menu_get_active_menu_name());
-  list($key, $curr) = each($tree);
+  $curr = current($tree);
+  next($tree);
 
   while ($curr) {
     // Terminate the loop when we find the current path in the active trail.
@@ -93,7 +94,8 @@ function ctools_get_menu_trail($path = NULL) {
         $trail[] = $curr['link'];
         $tree = $curr['below'] ? $curr['below'] : array();
       }
-      list($key, $curr) = each($tree);
+      $curr = current($tree);
+      next($tree);
     }
   }
   // Make sure the current page is in the trail (needed for the page title),
